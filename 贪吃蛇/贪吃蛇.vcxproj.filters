@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Snake.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Food.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Wall.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\EventManager.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ScoreSystem.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Renderer.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\UIManager.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Menu.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Input.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Timer.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system\SaveManager.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\Animation.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\FoodSprite.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system\Bgm.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\SettlementManager.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system\RecordManager.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\SnakeHeadSprite.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Snake.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Food.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Wall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\EventManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ScoreSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\Renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\UIManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\Menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system\SaveManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\Animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\FoodSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system\Bgm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\SettlementManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="system\RecordManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\SnakeHeadSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
